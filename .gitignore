@@ -1,49 +1,47 @@
-# History files
-.Rhistory
-.Rapp.history
 
-# Session Data files
-.RData
-.RDataTmp
+# tessdata/
+# tessdata_fast/
+# tessdata_best/
 
-# User-specific files
-.Ruserdata
+sizes/movie/
 
-# Example code in package build process
-*-Ex.R
+/sizes/dump.pdf
+/sizes/movie.mp4
 
-# Output files from R CMD build
-/*.tar.gz
+/sizes/ffmpeg.help.txt
+/sizes/tmp-*
+/sizes/tmp_*
 
-# Output files from R CMD check
-/*.Rcheck/
+/sizes/B_RUN_data-*
+/sizes/data-*
+/sizes/B_RUN_data_*
+/sizes/data_*
+/sizes/A_RUN_data-*
+/sizes/A_RUN_data_*
+/sizes/C_RUN_data-*
+/sizes/C_RUN_data_*
+/sizes/D_RUN_data-*
+/sizes/D_RUN_data_*
 
-# RStudio files
-.Rproj.user/
+/borders/RUN_data*
 
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
+/borders/SRCIMG-F-*
 
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
+/sizes/diagnostics-output
+/sizes/vanilla-output
 
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
+# the scripts in this directory should be visible, but any output should possibly be hidden:
+/sizes/weird-segfault-hunted/*.log
+/sizes/weird-segfault-hunted/*.html
+/sizes/weird-segfault-hunted/*.tsv
+/sizes/weird-segfault-hunted/*.txt
+/sizes/weird-segfault-hunted/*.hocr
+/sizes/weird-segfault-hunted/*.webp
+/sizes/weird-segfault-hunted/*.uzn
 
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
+*~
 
-# R Environment Variables
-.Renviron
+# tracked by https://github.com/GerHobbelt/tesseract-bulk-testing-fun-with-assertion-failures-outputs repo instead.
+/setup.outputs-repo.configs.sh
+.ocr-output-repo.excludes
 
-# pkgdown site
-docs/
-
-# translation temp files
-po/*~
-
-# RStudio Connect folder
-rsconnect/
