@@ -7,6 +7,17 @@ This is a set of bulk tesseract test scripts which take several input images and
 Along the way we've observed some funny stuff, including (aparently?) input size dependent assert failures.
 
 
+> [!CAUTION]
+> ## Note about `git` repositories
+> 
+> This corpus is tracked through *two* different repositories (inspired by multigit 🥳):
+> 
+> - the corpus content (i.e. the **sources**) are tracked in [tesseract-bulk-testing-fun-with-assertion-failures](https://github.com/GerHobbelt/tesseract-bulk-testing-fun-with-assertion-failures)
+> - \[examples of\] the corpus output/results (i.e. the HTML/diagnostics and *rendered* lab notes) is tracked in [tesseract-bulk-testing-fun-with-assertion-failures-**outputs**](https://github.com/GerHobbelt/tesseract-bulk-testing-fun-with-assertion-failures-outputs)
+>   - this stuff should also be visible at https://gerhobbelt.github.io/tesseract-bulk-testing-fun-with-assertion-failures-outputs/
+>
+
+
 
 ## Prerequisites
 
